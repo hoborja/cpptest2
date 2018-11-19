@@ -11,3 +11,20 @@ the next part of out loop will add one to our currChar char
 then add one to counter
 the loop will then repeat 25 more times until our counter interger is equal to 26 at which point it will stop
 at the end this program will have out put the entire alphabet before PAUSING.
+
+
+2)
+a)
+We intialize an interger called health to 100
+we set the seed of rand to time 0 with srand
+we enter a loop which will print to screen Health is now: (the health interger value) which in the first pass it will be 100
+it then subtracts our health loop by  a random number with a mod of 10 (10,20,30...)
+and it will keep running this loop while our health interger is greater than 0
+
+b)
+If we change health's intial value to 0 it does still get into the loop because the while check for a do loop is after the intial run
+how ever it will only one run once
+so it will only print Health is now: 0
+
+c)
+If we change the program to a regular while loop leaving health intialized to 0 the loop will not run and the program will just exit
