@@ -1,0 +1,13 @@
+1)
+ in ascii the letters start at 65, so we set the ASCII_LETTER_START interger to a constant value of 65.
+the total number of letters in the alphabet is 26, so we set the NUMBER_LETTERS interger to a constant value of 26
+next the program intializes a count interger to the value of 0
+then we make a char interger which is intialized with a static_cast to do a convesrion from an interger, in this case our ASCII_LETTER_START interger, to a char datatype, meaning if we print char at the time of intialization it will out put the char ('65'), which is A
+while loop is made and the loop will run so long as the interger counter is less than the NUMBER_LETTERS interger which is equal to 26, so this is the same as  counter < 26
+in the loop we print to screen ASCII then it prints a number that is equal to our counter interger plus our ASCII_LETTER_START interger, during the first loop that is (0 + 65 which equals 65) then it prints =,
+it then out puts currChar which will be the ASCII character equal to what our first equation is, in the first one this is 65 so it will out put an A
+so the first one the console will say "ASCII 65 = A"
+the next part of out loop will add one to our currChar char
+then add one to counter
+the loop will then repeat 25 more times until our counter interger is equal to 26 at which point it will stop
+at the end this program will have out put the entire alphabet before PAUSING.
